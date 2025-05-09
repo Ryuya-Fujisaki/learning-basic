@@ -1,7 +1,20 @@
-const x = 3;
-const y = 5;
-function calc() {
-    document.body.innerText = x + y;
-};
+// const x = 30;
+// const y = 30;
 
-calc();
+// function calc() {
+//     console.log(x * y);
+// }
+
+// calc();
+
+// const calc2 = (number) => {
+//     return number * 200;
+// }
+
+// document.body.innerText = calc2(200);
+
+function calc3(number) {
+    return number * 300;
+}
+
+document.body.innerText = calc3(300);
